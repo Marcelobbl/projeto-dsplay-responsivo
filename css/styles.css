@@ -5,6 +5,8 @@
   --color-light-gray: #f0f0f0;
   --color-light-red: #dd7e92;
   --color-dark-gray: #383838;
+  --color-font-form-gray:#C4C4C4;
+  --color-radio-gray: #999999;
 }
 
 * {
@@ -95,7 +97,7 @@ body {
   margin: 3px 12px 0 13px;
   font-size: 12px;
   font-weight: 700;
-  border-block-end: ;
+  
 }
 
 .card-container h4 {
@@ -128,15 +130,14 @@ button {
   width: 244px;
   height: 67px;
   border-radius: 8px;
-  margin: 0;
+  
 }
 
 .games-container {
   background-color: var(--color-light-gray);
   margin-top: 20px;
-  margin-bottom: 40px;
   width: 300px;
-  height: 1176git add.px;
+  height: 1176px;
   display: flex;
   flex-direction: column;
 }
@@ -179,3 +180,90 @@ button {
   height: 168.5px;
   border-radius: 8px 8px 0 0;
 }
+
+.form-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 10px 40px 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  }
+
+  .form-container h1 {
+    
+    font-size: 24px;
+    color: var(--color-gray);
+    margin: 40px 44px 16px 45px;
+    
+  }
+
+.div-form-container {
+  width: 300px;
+  height: 603px;
+  background-color: var(--color-light-gray);
+  display: flex;
+  height: 603px;
+  align-items: center;
+  border-radius: 8px;
+  
+}
+
+.button-customize {
+  background-color: var(--color-white);
+  width: 280px;
+  height: 50px;
+  font-size: 18px;
+  color : var(--color-font-form-gray);
+  margin: 0 10px 20px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--color-gray);
+  
+ }
+
+ .div-form-container p {
+  font-size: 16px;
+  color: var(--color-gray);
+  font-weight: 400px;
+  margin: 0 37px 0 10px;
+ }
+
+ .radio-customize {
+  color: var(--color-gray);
+  font-size: 16px;
+  border-bottom: var(--color-radio-gray);
+  display: flex;
+  
+ }
+
+ .radio-customize > input[type=radio] {
+  width: 23px;
+  height: 23px;
+  background: var(--color-white);
+  border: 1px solid var(--color-radio-gray);
+  margin: 0 7px 8px 10px;
+ }
+ .checkbox-customize {
+  margin-top: 28px;
+ }
+
+ .checkbox-customize > input[type=checkbox] {
+  width: 23px;
+  height: 23px;
+  margin: 0 7px 28px 10px;
+  border: 1px solid var(--color-radio-gray);
+ }
+  
+ .div-form-container button{
+  margin-left: 26px;
+  margin-top: 20px;
+ }
+
+ .button-reset > button[type=reset] {
+  background-color: var(--color-white);
+  
+  color: var(--color-light-red);
+ }
+
+
+
